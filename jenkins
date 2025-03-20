@@ -21,7 +21,7 @@ pipeline
         {
             steps
             {
-               deploy adapters: [tomcat9(credentialsId: 'b0357346-4963-4e4b-9440-28cbb6325a68', path: '', url: 'http://52.207.127.44:8080')], contextPath: 'webapp1', war: '**/*.war'
+               deploy adapters: [tomcat9(credentialsId: 'b0357346-4963-4e4b-9440-28cbb6325a68', path: '', url: 'http://3.86.248.210:8080')], contextPath: 'webapp1', war: '**/*.war'
        
             }
         }
@@ -36,7 +36,7 @@ pipeline
         {
             steps
             {
-               deploy adapters: [tomcat9(credentialsId: 'b0357346-4963-4e4b-9440-28cbb6325a68', path: '', url: 'http://35.173.135.72:8080')], contextPath: 'prdapp1', war: '**/*.war'
+               deploy adapters: [tomcat9(credentialsId: 'b0357346-4963-4e4b-9440-28cbb6325a68', path: '', url: 'http://3.82.252.235:8080')], contextPath: 'prdapp1', war: '**/*.war'
        
             }
         }
